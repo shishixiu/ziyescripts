@@ -8,6 +8,8 @@ on:
   workflow_dispatch:
   watch:
     types: started
+  push:
+    branches: [ main2 ]
   repository_dispatch:
     types: sync-6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
 jobs:
